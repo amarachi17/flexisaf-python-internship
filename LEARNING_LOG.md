@@ -77,3 +77,43 @@ Clear decision making logic is essential for building reliable applications, esp
 
 # Outcome
 I successfully built a console-based finance assistant that simulates real-world user interaction and demonstrates foundational backend skills.
+
+
+## Week 05
+## StudentHub CLI - Lists, Tuples $ List Comprehensions
+
+# What I Learned
+This week focused on mastering Python data structures, specifically lists and tuples.
+
+I learned how to:
+- Store structured data using lists
+- Use tuples for fixed data storage
+- Update and remove items from lists
+- Use list comprehensions to filter data efficiently
+- Structure larger programs using functions
+
+# Practical Application
+
+I built **StudentHub CLI**, a console application that:
+- Manages academic assignments
+- Tracks school-related expenses
+- Filters expenses by category
+- Identifies expenses above a certain amount
+
+# Challenges Faced
+
+- Managing nested data structures
+- Designing clean menu navigation
+- Understanding when to use tuples vs dictionaries
+
+# Key Takeaway
+
+List comprehensions are powerful and allow cleaner, more readable filtering logic compared to traditional loops.
+
+# Resources Used
+
+- Real Python – Lists and Tuples  
+  https://realpython.com/python-lists-tuples/
+
+- Python Lists & Tuples (YouTube)  
+  https://youtu.be/R-HLU9Fl5ug
