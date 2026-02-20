@@ -117,3 +117,50 @@ List comprehensions are powerful and allow cleaner, more readable filtering logi
 
 - Python Lists & Tuples (YouTube)  
   https://youtu.be/R-HLU9Fl5ug
+
+
+## Week 06
+## Student Contact Manager (CLI)
+## Dictionaries $ Sets
+
+# Focus Area
+
+This week focused on mastering Python dictionaried and sets.
+
+# What I Learned
+
+- How to use dictionaries to store structured records
+- How nested dictionaries simulate database records
+- How sets enforce uniqueness constraints
+- Implementing full CRUD operations
+- Validating user input before storing data
+
+# Project Built
+
+Student Contact Manager (CLI)
+
+The program:
+- Stores contacts using unique identifiers
+- Prevents duplicate emails and phone numbers
+- Supports adding, updating, deleting, searching, and listing contacts
+
+# Challenges Faced
+
+- Managing set updates during contact modification
+- Handling validation before data insertion
+- Designing clean function separation
+
+# Key Takeaway
+
+Sets are powerful tools for maintaining data interity, similar to UNIQUE constraints in databases. 
+
+# Resources Used
+
+- Real Python – Dictionaries  
+  https://realpython.com/python-dicts/
+
+- W3Schools – Python Dictionaries  
+  https://www.w3schools.com/python/python_dictionaries.asp
+
+- W3Schools – Python Sets  
+  https://www.w3schools.com/python/python_sets.asp
