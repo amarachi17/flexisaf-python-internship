@@ -33,3 +33,6 @@ todo_cli_app/
 ## How to Run
 Navigate to the `week-07` directory then navigate to `todo_cli_app` and run:
 python main.py
+
+## Author 
+Confidence Amarachi Nkeonye
