@@ -164,3 +164,48 @@ Sets are powerful tools for maintaining data interity, similar to UNIQUE constra
 
 - W3Schools – Python Sets  
   https://www.w3schools.com/python/python_sets.asp
+
+
+## Week 07
+## Functions & Modular Programming
+
+
+# Focus Area
+
+This week focused on creating reusable functions and structuring programs across multiple files.
+
+# What I Learned
+
+- How to define and call custom functions
+- How to separate program logic into modules
+- How to import functions from another file
+- How to use built-in functions like len() and enumerate()
+- How to handle invalid user input using try/except
+
+# Project Built
+
+CLI To-Do List App (Function-Based)
+
+The application:
+- Allows users to add, view, mark, and delete tasks
+- Uses a dedicated file for task logic
+- Separates menu logic into a main file
+- Runs continuously until the user chooses to exit
+
+# Challenges Faced
+
+- Managing shared task data across files
+- Ensuring user input does not crash the program
+- Designing clean menu navigation
+
+# Key Takeaway
+
+Separating logic into multiple files improves readability, maintainability, and scalability. This approach reflects real-world software structure rathar tahn writing everything inside one script.
+
+# Resources Used
+
+- Programiz – Python Functions  
+  https://www.programiz.com/python-programming/function
+
+- Real Python – Defining Your Own Python Function  
+  https://realpython.com/defining-your-own-python-function/
