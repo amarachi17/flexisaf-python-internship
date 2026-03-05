@@ -209,3 +209,48 @@ Separating logic into multiple files improves readability, maintainability, and 
 
 - Real Python – Defining Your Own Python Function  
   https://realpython.com/defining-your-own-python-function/
+
+
+## Week 08
+## Debugging & Error Handling
+
+
+# Focus Area
+
+This week focused on understanding how to sebug programs and handle errors when interacting with external systems such as APIs and files.
+
+# What I Learned
+
+- How to use `try/except` blocks to handle runtime errors
+- How to work with external APIs using the `requests` library
+- How to handle network errors, timeouts, and invalid responses
+- How to safely read and write files using Python
+- How to prevent accidental file overwrites
+
+# Projects Completed
+
+1. API Request Script
+A script that retrieves data from a public API and handles connection errors, timeouts, and unexpected responses.
+
+2. File Backup Tool
+A script that copies the contents of a file into another file while preventing accidental overwrites and handling missing files.
+
+# Challanges Faced
+
+One challenge was anticipating the different types of errors that can occur when working with external services. I learned that defensive programming and proper exception handling make programs more reliable.
+
+# Key Takeaway
+
+Error handling is critical when building real-world software. Programs must anticipate and handle unexpected failures instead of crashing.
+
+# Resources Used
+
+- https://realpython.com/python-debugging/
+- https://docs.python.org/3/tutorial/errors.html
+- https://youtu.be/0ZvaDa8eT5s
+
+
+
+## Author 
+
+Confidence Amarachi Nkeonye
