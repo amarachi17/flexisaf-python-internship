@@ -16,7 +16,7 @@ Built using:
 ## How to Run
 
 ```bash
-git clone https://github.com/username/notes-app-flask.git
-cd notes-app-flask
+git clone https://github.com/amarachi17/flexisaf-python-internship/tree/main/notes_app
+cd notes_app
 pip install -r requirements.txt
 python app.py
