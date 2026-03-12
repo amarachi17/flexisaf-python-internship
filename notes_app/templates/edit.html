@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="max-w-lg mx-auto bg-white p-6 rounded shadow">
+
+<h2 class="text-xl font-bold mb-4">Edit Note</h2>
+
+<form action="/update/{{ index }}" method="post">
+
+<input type="text"
+name="note"
+value="{{ note }}"
+class="w-full border rounded px-3 py-2 mb-4">
+
+<button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+Update
+</button>
+
+<a href="/" class="ml-4 text-gray-500">Cancel</a>
+
+</form>
+
+</div>
+
+{% endblock %}

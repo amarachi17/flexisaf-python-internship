@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="max-w-lg mx-auto bg-white p-6 rounded shadow">
+
+<form action="/add" method="post" class="flex gap-2 mb-4">
+
+<input type="text" name="note"
+placeholder="Add a note..."
+class="flex-1 border rounded px-3 py-2">
+
+<button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+Add
+</button>
+
+</form>
+
+<ul>
+
+{% for note in notes %}
+
+<li class="flex justify-between items-center border-b py-2">
+
+<span>{{ note }}</span>
+
+<div class="space-x-3">
+
+<a href="/edit/{{ loop.index0 }}" class="text-green-600">Edit</a>
+
+<a href="/delete/{{ loop.index0 }}" class="text-red-500">Delete</a>
+
+</div>
+
+</li>
+
+{% endfor %}
+
+</ul>
+
+</div>
+
+{% endblock %}
