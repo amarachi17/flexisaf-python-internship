@@ -250,6 +250,49 @@ Error handling is critical when building real-world software. Programs must anti
 - https://youtu.be/0ZvaDa8eT5s
 
 
+## Week 09 
+## CSV File Handling & Data Processing
+
+# Focus Area
+
+This week focused on working with CSV files to store and analyze structured data using Python.
+
+# What I Learned
+
+- How to create and write data to CSV files using the csv module
+- How to read structured data from CSV files
+- How to process stored data using loops
+- How to calculate averages from datasets
+- How to identify the highest value in a dataset
+
+# Project Built
+
+Student Score Manager
+
+The program allows users to store student names and scores in a CSV file. The stored data is then analyzed to calculate the class average and determine the student with the highest score.
+
+# Challenges Faced
+
+One challenge was ensuring that the program correctly converts stored values into numeric data before performing calculations. Another challenge was handling cases where the CSV file does not exist.
+
+# Key Takeaway
+
+CSV files are a simple but powerful way to store structured data. Learning to read and analyze CSV data is useful for many real-world applications, including reporting and data analysis.
+
+# Skills Strengthened
+
+- File handling
+- Data processing
+- Python loops and aggregation
+- Error handling
+- Structured data management
+
+# Resources Used
+
+- https://realpython.com/read-write-files-python/
+- https://realpython.com/python-csv/
+- https://youtu.be/uhq5jZ6FaMY
+- https://youtu.be/Da5TOXCwLSg
 
 ## Author 
 
