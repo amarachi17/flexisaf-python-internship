@@ -294,6 +294,42 @@ CSV files are a simple but powerful way to store structured data. Learning to re
 - https://youtu.be/uhq5jZ6FaMY
 - https://youtu.be/Da5TOXCwLSg
 
+
+## Week 10 
+## Python Modules
+
+# Focus Area
+
+This week focused on understanding Python modules and how to organize code into reusable components.
+
+# What I Learned
+
+- How to create a custom Python module
+- How to import functions from another file
+- The importance of separating logic into different files
+- How modular programming improves code readability and reuse
+
+# Project Built
+
+Simple Calculator using a custom module.
+
+The math operations (addition, subtraction, multiplication, division) were placed in a separate file and imported into the main program.
+
+# Challenges Faced
+
+Understanding how Python locates modules and ensuring both files are in the same directory.
+
+# Key Takeaway
+
+Modular programming is essential for building scalable and maintainable applications.
+
+# Skills Strengthened
+
+- Code organization
+- Function reuse
+- Python imports
+
+
 ## Author 
 
 Confidence Amarachi Nkeonye
