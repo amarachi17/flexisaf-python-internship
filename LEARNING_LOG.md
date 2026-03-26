@@ -330,6 +330,69 @@ Modular programming is essential for building scalable and maintainable applicat
 - Python imports
 
 
+
+## Week 11 
+## Logging, Timestamps & Data Analysis
+
+# Focus Area
+
+This week focused on tracking user activity using timestamps, logging data to files, and analyzing structured data using the pandas library.
+
+
+# What I Learned
+
+- How to use the `datetime` module to generate timestamps
+- How to log user actions into text files
+- How to store structured data in CSV format
+- How to analyze data using pandas
+- How to calculate totals and averages from datasets
+- How to export project dependencies using `pip freeze`
+
+
+# Projects Built
+
+1. Expense Tracker with Logging  
+A program that records expenses with timestamps and stores them in a CSV file. The stored data is analyzed using pandas to calculate total and average expenses.
+
+2. Action Logger  
+A script that logs user activities with timestamps into a text file, helping track user actions over time.
+
+
+# Challenges Faced
+
+- Understanding how to integrate pandas with CSV data
+- Managing file operations safely
+- Ensuring logs are recorded correctly with timestamps
+
+# Key Takeaway
+
+Logging and data analysis are essential in real-world applications. Programs should not only store data but also provide meaningful insights from it.
+
+
+# Skills Strengthened
+
+- File handling
+- Data analysis
+- Logging systems
+- Error handling
+- Working with external libraries
+
+
+# Next Steps
+
+- Add advanced analytics (e.g., highest expense, category breakdown)
+- Build a web-based version using Flask or Django
+- Store data in a database instead of CSV
+
+
+# Resources Used
+
+- https://www.w3schools.com/python/python_datetime.asp  
+- https://www.geeksforgeeks.org/python/python-datetime-module/  
+- https://youtu.be/NNMtpSUN5T0  
+- https://youtu.be/XPfB_Xr2QFU  
+
+
 ## Author 
 
 Confidence Amarachi Nkeonye
